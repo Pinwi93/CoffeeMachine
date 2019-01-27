@@ -1,0 +1,15 @@
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\bin\Debug\Entity.dll.config
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\bin\Debug\Entity.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\bin\Debug\Entity.pdb
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\bin\Debug\EntityFramework.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\bin\Debug\EntityFramework.xml
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Coffee.Entity.csprojAssemblyReference.cache
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Entity.Migrations.newmigration.resources
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Entity.Migrations.last.resources
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Coffee.Entity.csproj.GenerateResource.cache
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Coffee.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Coffee.Entity.csproj.CopyComplete
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Entity.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Entity\obj\Debug\Entity.pdb
