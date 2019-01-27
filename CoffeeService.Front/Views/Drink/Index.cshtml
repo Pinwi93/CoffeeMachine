@@ -1,0 +1,31 @@
+﻿@model CoffeeService.Front.Models.ViewData.DrinkViewData
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Coffee Machine</h2>
+<img src="~/Images/coffemachine.jpg" class="image" />
+<div id="DrinkForm">
+    @Html.Partial("Partial/_PartialDrink", Model.drinkFormData)
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script>
+    $("#searchbtn").click(function () {
+        var badgeId = $('#badgeId').val();
+        $.ajax({
+            url: 'Drink/FindLastDrink',
+            data: { 'badgeId': badgeId },
+            type: 'POST',
+            success: function (res) {
+                if (res) {
+                    if (res) {
+                        $("#DrinkForm").html(res);
+                    }
+                    else {
+                    }
+                }
+            }
+        });
+    })
+</script>

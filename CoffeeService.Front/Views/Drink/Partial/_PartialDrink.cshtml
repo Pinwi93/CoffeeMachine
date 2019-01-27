@@ -1,0 +1,54 @@
+﻿@model CoffeeService.Front.Models.FormData.DrinkFormData
+@{
+    ViewBag.Title = "_PartialDrink";
+}
+
+@using (Html.BeginForm("AddNewDrink", "Drink"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal" id="form">
+        <h4>Choose Your Drink</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.DrinkId)
+        @Html.HiddenFor(model => model.DrinkDate)
+        <div class="form-group">
+            @Html.LabelFor(model => model.BadgeId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.BadgeId, new { htmlAttributes = new { @class = "form-control", id = "badgeId" } })
+                @Html.ValidationMessageFor(model => model.BadgeId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DrinkType, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.DrinkType, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DrinkType, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.SugarQuantity, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SugarQuantity, new { htmlAttributes = new { @class = "form-control", min = 0 } })
+                @Html.ValidationMessageFor(model => model.SugarQuantity, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UseMug, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.CheckBoxFor(model => model.UseMug, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UseMug, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="GetDrink" class="btn btn-success" />
+                <input type="button" value="GetLastDrink" class="btn btn-success" id="searchbtn" />
+            </div>
+        </div>
+    </div>
+}
+
