@@ -1,0 +1,15 @@
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\Coffee.Service.dll.config
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\Coffee.Service.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\Coffee.Service.pdb
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\Entity.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\EntityFramework.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\Entity.pdb
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\Entity.dll.config
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\EntityFramework.xml
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\obj\Debug\Coffee.Service.csprojAssemblyReference.cache
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\obj\Debug\Coffee.Service.csproj.CoreCompileInputs.cache
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\obj\Debug\Coffee.Service.csproj.CopyComplete
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\obj\Debug\Coffee.Service.dll
+C:\Users\ojafar.NS\Documents\Visual Studio 2017\CoffeeMachine\Coffee.Service\obj\Debug\Coffee.Service.pdb
